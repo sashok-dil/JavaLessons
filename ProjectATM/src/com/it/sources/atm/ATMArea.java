@@ -6,6 +6,7 @@ public class ATMArea {
 		// TODO Create new object ATM atm = new ATM();
 		// TODO int value = 5;
 		// TODO this value insert int atm.insertClientValue
+	
 	}
 
 }
