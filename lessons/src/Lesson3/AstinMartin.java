@@ -20,5 +20,4 @@ public class AstinMartin extends Car {
 	
 			return howlong*80;
 	}
-
 }
