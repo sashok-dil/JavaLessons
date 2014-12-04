@@ -13,11 +13,5 @@ public class Hryvna {
         return value;
     }
     
-    public int[] getPat() {
-        return getPat();
-    }
-
-	public void setPat(int pat[]) {
-		this.pat = pat;
-	}
+  
 }
