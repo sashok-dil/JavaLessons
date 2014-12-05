@@ -3,10 +3,9 @@ import com.it.sources.atm.Box;
 import com.it.sources.atm.money.Money;
 
 public class ATMLogic {
-	//TODO create methods: consume, checkConterfeit, garbage
 	
 	public ATMLogic() {
-		Box box = new Box();
+		
 	}
 	public boolean checkCounterfeit(int value, int[] values) {
 

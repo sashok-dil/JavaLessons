@@ -4,7 +4,9 @@ public class Money {
 private int value;
 private boolean counterfeit;
 
-	public Money(int i){}
+	public Money(int i){
+		
+	}
 
 	public int getValue() {
 	return value;

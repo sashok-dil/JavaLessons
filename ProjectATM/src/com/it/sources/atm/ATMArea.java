@@ -7,8 +7,7 @@ import java.io.InputStreamReader;
 public class ATMArea {
 
 	public static void main(String[] args) {
-		try
-		{
+		try{
 		BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
 	     String s =  bufferRead.readLine();
 	     int clientValue1=Integer.parseInt(s);

@@ -8,8 +8,7 @@ public class Hryvna extends Money {
 		super(value);
         this.value = value;
     }
-	
-	 
+		 
     public int getValue() {
         return value;
     }
