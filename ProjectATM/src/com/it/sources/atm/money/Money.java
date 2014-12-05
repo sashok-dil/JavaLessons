@@ -4,19 +4,23 @@ public class Money {
 private int value;
 private boolean counterfeit;
 
- public Money(int i){}
+	public Money(int i){}
 
-public int getValue() {
+	public int getValue() {
 	return value;
-}
-public void setValue(int value) {
+	}
+	
+	public void setValue(int value) {
+
 	this.value = value;
-}
-public boolean isCounterfeit() {
+	}
+	
+	public boolean isCounterfeit() {
 	return counterfeit;
-}
-public void setCounterfeit(boolean counterfeit) {
+	}
+	
+	public void setCounterfeit(boolean counterfeit) {
 	this.counterfeit = counterfeit;
-}
+	}
 
 }

@@ -21,11 +21,11 @@ public class ATMLogic {
 	}
 		
 	public void consume(Money money) {
-		
+		System.out.println("Купюра найдена ");
 	}
 	
 	public void garbage() {
-		System.out.println("Менты бухать, идите работать");
+		System.out.println("Менты!!! харе бухать, идите работать");
 	}
 	
 

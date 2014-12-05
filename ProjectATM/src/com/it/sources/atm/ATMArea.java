@@ -7,9 +7,6 @@ import java.io.InputStreamReader;
 public class ATMArea {
 
 	public static void main(String[] args) {
-		// TODO Create new object ATM atm = new ATM();
-		// TODO int value = 5;
-		// TODO this value insert int atm.insertClientValue
 		try
 		{
 		BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
@@ -18,8 +15,9 @@ public class ATMArea {
 		ATM atm = new ATM();
 		atm.insertClientValue(clientValue1);
 		}
-		catch(IOException ex)
-		{}
+		catch(IOException ex){
+			
+		}
 	}
 
 }
