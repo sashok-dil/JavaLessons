@@ -1,5 +1,7 @@
 package Lesson2;
 
+import sun.reflect.generics.tree.ReturnType;
+
 public class Grater {
 //Вывевести в консоль все числа больше 50
 	
@@ -22,25 +24,48 @@ public class Grater {
 			System.out.println(arrNew[i]);
 			}
 		}
+		//или другой способ цикла
+		 for (int i = 0; i < arrNew.length; i+=3) {
+			System.out.println(arrNew[i]);
+			}
+		}
 		
-	}
+	
 }*/
 
 	
-/*разделить поровну массив на два массива, в первом массиве изменить порядок элементов, 
-	во втором конвертировать число в отрицательное (было 29 стало -29*/
+//разделить поровну массив на два массива, в первом массиве изменить порядок элементов, 
+	//во втором конвертировать число в отрицательное (было 29 стало -29*/
 		public static void main(String[] args){
-			int arrOld[]={42,54,77,11,34,21,56,78,90,10,13,29,67 };
-			int first[]= new int[15];
-			int Second[]= new int[15];
-							
-				System.out.println(first);
+			int arrOld[]={42,54,77,11,34,21,56,78,90,10,13,29,64 };
+			int first[] = new int[arrOld.length/2];
+			int second[] = new int[arrOld.length-first.length];
+			
+										
+				for (int i = 0; i < arrOld.length; i++) {
+					if(i<first.length){
+						first[i] = arrOld[i];
+						System.out.println("первый массив "+first[i]);
+					} else {
+						second[i-first.length] = arrOld[i];
+						System.out.println("Второй массив "+second[i-first.length]);
+						
+					}
+					
+					
+				}
+				
+					
+				
+				
+		}
+
+}
 				
 			
 			
-			
-		}
-}
+
+
 
 
 
